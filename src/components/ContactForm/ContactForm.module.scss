@@ -1,0 +1,47 @@
+.Form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.Label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.Input {
+  max-width: 200px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  &:focus {
+    box-shadow: 1px 2px 2px #095fcc;
+  }
+}
+
+.Button {
+  max-width: 100px;
+  padding: 7px 10px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #2a6f85;
+    border: 1px solid transparent;
+    color: #fff;
+  }
+}
